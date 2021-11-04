@@ -13,6 +13,9 @@ export class NotesService {
   constructor() { }
 
   //get methods
+  getAll(){
+    return this.notes;
+  }
   get(id: number){
     return this.notes[id]; //index
   }

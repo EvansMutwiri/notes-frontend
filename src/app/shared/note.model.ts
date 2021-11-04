@@ -1,4 +1,4 @@
 export class Note {
-    title?: String;
-    body?: String;
+    title?: string;
+    body?: string;
 }
