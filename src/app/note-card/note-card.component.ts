@@ -9,6 +9,7 @@ export class NoteCardComponent implements OnInit {
 
   @Input() title?: string;
   @Input() body?: string;
+  @Input() link?: string;
 
   constructor() { }
 

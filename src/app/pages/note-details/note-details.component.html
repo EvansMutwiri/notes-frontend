@@ -13,7 +13,7 @@
         <br>
 
         <div class="field">
-            <label for="" class="label">Body</label>
+            <label class="label">Body</label>
             <div class="control">
                 <textarea class="textarea" name="body" [ngModel]="note.body"></textarea>
             </div>
@@ -21,7 +21,7 @@
 
         <div class="field is-grouped is-pulled-right">
             <div class="control">
-                <button class="button is-text" type="button">Cancel</button>
+                <button class="button is-text" type="button" (click)="cancel()">Cancel</button>
             </div>
             <div class="control">
                 <button class="button is-success" type="submit" [disabled]="!noteForm.valid">Save</button>

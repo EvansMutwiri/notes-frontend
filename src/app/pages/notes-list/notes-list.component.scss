@@ -1,3 +1,5 @@
+@import '../../../main-styles.scss';
+
 .main-container{
     display: flex;
     flex-direction: column;
@@ -10,8 +12,18 @@
 
 .notes-list{
     margin-top: 32px;
+    margin-bottom: 70px;
 }
 app-note-card {
     display: block;
     margin-bottom: 20px;
+}
+
+.floating-add-button{
+    position: fixed;
+    width: 500px;
+    bottom: 10px;
+    font-size: 24px;
+
+    box-shadow: 0px 0px 12px 3px rgba($topnavend, 0.2);
 }
