@@ -19,7 +19,9 @@ export class NotesListComponent implements OnInit {
   }
 
   deleteNote(id: number){
-    this.notesService.delete(id);
+    // this.notesService.delete(id);
+
+    this.notes.splice(id, 1);
   }
 
 }
