@@ -4,4 +4,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Live Demo
 
-Create a note [here](evansmutwiri.github.io/notes-frontend/)
+Create a note [here](https://evansmutwiri.github.io/notes-frontend/)
